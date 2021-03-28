@@ -92,6 +92,12 @@ code {
   white-space: nowrap;
 }
 
+@media screen and (max-width: 320px) {
+  code {
+    font-size: 0.6em;
+  }
+}
+
 /* mobile size */
 @media only screen and (max-width: 815px) {
   header {
